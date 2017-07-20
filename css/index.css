@@ -1,0 +1,63 @@
+.flex, .content > .content_one > p, .content > .content_one > .inp {
+  width: 100%;
+  display: flex; }
+
+.content {
+  width: 350px;
+  padding: 20px;
+  margin: 100px auto;
+  background: #666666;
+  color: #fff; }
+  .content > h1 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px; }
+  .content > .content_one > p {
+    justify-content: space-between;
+    padding: 10px 0; }
+  .content > .content_one > .inp {
+    align-items: center;
+    border: 1px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+    justify-content: space-between;
+    background: #fff;
+    color: #666; }
+    .content > .content_one > .inp input {
+      flex: 1;
+      padding-left: 10px;
+      height: 30px;
+      border: none; }
+    .content > .content_one > .inp > h3 {
+      width: 18%;
+      text-align: center;
+      cursor: pointer;
+      border-left: 1px solid #ccc; }
+
+.search {
+  background: cornflowerblue;
+  margin-top: 20px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px; }
+  .search a {
+    color: #FFFFFF; }
+
+.foot {
+  padding: 20px 0;
+  color: #ffffff;
+  text-align: center; }
+
+.li1, .li2 {
+  background: #fff;
+  width: 350px;
+  color: #666666;
+  position: absolute;
+  display: none; }
+  .li1 li, .li2 li {
+    padding: 5px 0;
+    cursor: pointer; }
+    .li1 li:hover, .li2 li:hover {
+      background: #CCCCCC; }
+
+/*# sourceMappingURL=index.css.map */
